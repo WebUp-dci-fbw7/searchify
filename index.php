@@ -1,6 +1,6 @@
 <?php
   /**
-   * Searchify, A tiny program to redirect users to their favourite search engine:
+   * Searchify, A tiny program to redirect users to their favorite search engine:
    * Usage:
    *  1) Put this file in a dir called `searchify` on your PHP supported server
    *  2) Send GET requests to this program using it's two paramaters:
@@ -50,12 +50,12 @@
 
   // Variables are below, if you want to support POST parameters, don't forget to switch GET to POST below
   /**
-   * Sanitized used input from form, for the `q` GET Param
+   * Sanitized user input from form, for the `q` GET Param
    * @var [String]
    */
   $q = htmlspecialchars($_GET['q']);
   /**
-   * Sanitized used input from form, for the `engine` GET Param
+   * Sanitized user input from form, for the `engine` GET Param
    * @var [String]
    */
   $engine = htmlspecialchars($_GET['engine']);
