@@ -1,4 +1,17 @@
 <?php
+  /**
+   * Searchify, A tiny program to redirect users to their favourite search engine:
+   * Usage:
+   *  1) Put this file in a dir called `searchify` on your PHP supported server
+   *  2) Send GET requests to this program using it's two paramaters:
+   *      (String) q - The string you want to search for
+   *      (String) engine - A string to represnt the search engine you would like to search
+   *                        Possible values:
+   *                          - `bing` for Bing search engine
+   *                          - `ddg` for DuckDuckGo
+   *                          - `google` for Google
+   *                          - `yahoo` for Yahoo
+   */
 
   /**
    * Return a header string to redirect the user to a search engine
