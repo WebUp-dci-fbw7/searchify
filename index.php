@@ -32,19 +32,16 @@
       // Google search engine
       case 'google':
         return "Location: http://www.google.com/search?q={$query}";
-        break;
 
       // Yahoo search engine
       case 'yahoo':
         return "Location: http://search.yahoo.com/search?q={$query}";
-        break;
 
       // Feel free to add other search engines here
 
       // Unrecognized search engine will send a 404 not found status code
       default:
         return "HTTP/1.1 404 Not Found";
-        break;
     }
   }
 
